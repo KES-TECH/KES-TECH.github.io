@@ -4,7 +4,7 @@ layout: splash
 header:
 	overlay_color: "#000"
 	overlay_filter: "0.5"
-	overlay_image : /assets/images/splash.png
+	overlay_image: /assets/images/splash.png
 ---
 
 <h1>TRNSYS 제품 및 용역 견적 요청</h1>
