@@ -19,7 +19,6 @@ gallery:
     alt: "placeholder image 4"
     title: "Image 4 title caption"
 
-
 ---
 <figure claass="align-center">
 	<img src="{{ site.url }}/assets/images/splash.png" alt="">
@@ -33,12 +32,11 @@ gallery:
 
 
 
-
 전화나 이메일로 견적 요청해 주시면 더 빨리 받아 보실 수 있습니다. 
 
 # 갤러리
 
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+{% include gallery %}
 
 
 
