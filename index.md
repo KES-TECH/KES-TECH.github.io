@@ -1,6 +1,24 @@
 ---
 
 layout: splash
+gallery:
+  - url: assets/images/unsplash-gallery-image-1.jpg
+    image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+  - url: /assets/images/unsplash-gallery-image-3.jpg
+    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    alt: "placeholder image 3"
+    title: "Image 3 title caption"
+  - url: /assets/images/unsplash-gallery-image-4.jpg
+    image_path: /assets/images/unsplash-gallery-image-4-th.jpg
+    alt: "placeholder image 4"
+    title: "Image 4 title caption"
+
 
 ---
 <figure claass="align-center">
@@ -8,11 +26,22 @@ layout: splash
 </figure>
 
 # TRNSYS 제품 및 용역 견적 요청
+
+
+
 **전화 : 070-5173-0630 / 이메일 : hysong@kes-tech.kr**
+
+
+
 
 전화나 이메일로 견적 요청해 주시면 더 빨리 받아 보실 수 있습니다. 
 
 # 갤러리
+
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+
+
+
 <figure style="width: 400px" claass="align-left">
 	<img src="{{ site.url }}/assets/images/logo.jpg" alt="">
 </figure>
