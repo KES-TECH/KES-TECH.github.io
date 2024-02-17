@@ -3,19 +3,19 @@
 layout: splash
 gallery:
   - url: assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    image_path: assets/images/unsplash-gallery-image-1.jpg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
   - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2-th.jpg
+    image_path: /assets/images/unsplash-gallery-image-2.jpg
     alt: "placeholder image 2"
     title: "Image 2 title caption"
   - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: /assets/images/unsplash-gallery-image-3-th.jpg
+    image_path: /assets/images/unsplash-gallery-image-3.jpg
     alt: "placeholder image 3"
     title: "Image 3 title caption"
   - url: /assets/images/unsplash-gallery-image-4.jpg
-    image_path: /assets/images/unsplash-gallery-image-4-th.jpg
+    image_path: /assets/images/unsplash-gallery-image-4.jpg
     alt: "placeholder image 4"
     title: "Image 4 title caption"
 
@@ -36,19 +36,11 @@ gallery:
 
 # 갤러리
 
+
+
 {% include gallery %}
 
 
-
-<figure style="width: 400px" claass="align-left">
-	<img src="{{ site.url }}/assets/images/logo.jpg" alt="">
-</figure>
-<figure style="width: 400px" claass="align-center">
-	<img src="{{ site.url }}/assets/images/pic1.jpg" alt="">
-</figure>
-<figure style="width: 400px" claass="align-right">
-	<img src="{{ site.url }}/assets/images/pic2.jpg" alt="">
-</figure>
 
 # 오시는 길
 <!-- * 카카오맵 - 지도퍼가기 -->
