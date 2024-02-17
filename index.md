@@ -1,13 +1,6 @@
 ---
 
 layout: splash
-gallery:
-	- url: /assets/images/logo.jpg
-	  image_path: /assets/images/logo.jpg
-    - url: /assets/images/pic1.jpg
-      image_path: /assets/images/pic1.jpg
-    - url: /assets/images/pic2.jpg  
-      image_path: /assets/images/pic2.jpg
 
 ---
 <figure claass="align-center">
@@ -20,8 +13,15 @@ gallery:
 전화나 이메일로 견적 요청해 주시면 더 빨리 받아 보실 수 있습니다. 
 
 # 갤러리
-
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+<figure claass="align-left">
+	<img src="{{ site.url }}/assets/images/logo.jpg" alt="">
+</figure>
+<figure claass="align-center">
+	<img src="{{ site.url }}/assets/images/pic1.jpg" alt="">
+</figure>
+<figure claass="align-right">
+	<img src="{{ site.url }}/assets/images/pic2.jpg" alt="">
+</figure>
 
 # 오시는 길
 <!-- * 카카오맵 - 지도퍼가기 -->
