@@ -13,13 +13,13 @@ layout: splash
 전화나 이메일로 견적 요청해 주시면 더 빨리 받아 보실 수 있습니다. 
 
 # 갤러리
-<figure style="width: 25%" claass="align-left">
+<figure style="width: 400px" claass="align-left">
 	<img src="{{ site.url }}/assets/images/logo.jpg" alt="">
 </figure>
-<figure style="width: 25%" claass="align-center">
+<figure style="width: 400px" claass="align-center">
 	<img src="{{ site.url }}/assets/images/pic1.jpg" alt="">
 </figure>
-<figure style="width: 25%" claass="align-right">
+<figure style="width: 400px" claass="align-right">
 	<img src="{{ site.url }}/assets/images/pic2.jpg" alt="">
 </figure>
 
