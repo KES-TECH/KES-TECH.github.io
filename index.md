@@ -4,7 +4,7 @@ layout: splash
 
 ---
 <figure claass="align-center">
-	<img src="{{ site.url }}/assets/images/splash.jpg" alt="">
+	<img src="{{ site.url }}/assets/images/splash.png" alt="">
 </figure>
 
 <h1>TRNSYS 제품 및 용역 견적 요청</h1>
