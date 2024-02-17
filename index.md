@@ -2,23 +2,19 @@
 
 layout: splash
 gallery:
-  - url: assets/images/unsplash-gallery-image-1.jpg
-    image_path: assets/images/unsplash-gallery-image-1.jpg
+  - url: assets/images/logo.jpg
+    image_path: assets/images/logo.jpg
     alt: "placeholder image 1"
     title: "Image 1 title caption"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: /assets/images/unsplash-gallery-image-2.jpg
+  - url: /assets/images/pic1.jpg
+    image_path: /assets/images/pic1.jpg
     alt: "placeholder image 2"
     title: "Image 2 title caption"
-  - url: /assets/images/unsplash-gallery-image-3.jpg
-    image_path: /assets/images/unsplash-gallery-image-3.jpg
+  - url: /assets/images/pic2.jpg
+    image_path: /assets/images/pic2.jpg
     alt: "placeholder image 3"
     title: "Image 3 title caption"
-  - url: /assets/images/unsplash-gallery-image-4.jpg
-    image_path: /assets/images/unsplash-gallery-image-4.jpg
-    alt: "placeholder image 4"
-    title: "Image 4 title caption"
-
+  
 ---
 <figure claass="align-center">
 	<img src="{{ site.url }}/assets/images/splash.png" alt="">
