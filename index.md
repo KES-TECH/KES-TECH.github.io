@@ -22,19 +22,24 @@ gallery:
 
 # TRNSYS 제품 및 용역 견적 요청  
 
+
 **전화 : 070-5173-0630 / 이메일 : hysong@kes-tech.kr**  
+
 
 전화나 이메일로 견적 요청해 주시면 더 빨리 받아 보실 수 있습니다.  
 
 # 갤러리  
 
+
 {% include gallery %}  
+
 
 # 오시는 길  
 
+
 <!-- * 카카오맵 - 지도퍼가기 -->
 <!-- 1. 지도 노드 -->
-<div id="daumRoughmapContainer1708177449511" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+<div id="daumRoughmapContainer1708177449511" class="root_daum_roughmap root_daum_roughmap_landing" style="width:100%;"></div>
 
 <!--
 	2. 설치 스크립트
@@ -47,7 +52,7 @@ gallery:
 	new daum.roughmap.Lander({
 		"timestamp" : "1708177449511",
 		"key" : "2i5up",
-		"mapWidth" : "640",
+<!--		"mapWidth" : "640", -->
 		"mapHeight" : "360"
 	}).render();
 </script>
