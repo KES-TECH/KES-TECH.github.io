@@ -59,8 +59,12 @@ gallery:
 <!--		"mapWidth" : "640", -->
 		"mapHeight" : "360"
 	}).render();
-</script>        
-
+</script>
+  
+  
+  
+  
+  
 
 
 
